@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local app data
+instance/*.sqlite3
+instance/*.sqlite3-shm
+instance/*.sqlite3-wal
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
